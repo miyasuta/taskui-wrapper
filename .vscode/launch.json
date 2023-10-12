@@ -16,7 +16,7 @@
             ],
             "args": [
                 "--open",
-                "test/flpSandbox.html#taskuinavigationroot-display"
+                "test/flpSandbox.html#taskuiwrapper-display"
             ],
             "console": "internalConsole",
             "internalConsoleOptions": "openOnSessionStart",
@@ -45,7 +45,7 @@
                 "--config",
                 "./ui5-local.yaml",
                 "--open",
-                "test/flpSandbox.html#taskuinavigationroot-display"
+                "test/flpSandbox.html#taskuiwrapper-display"
             ],
             "console": "internalConsole",
             "internalConsoleOptions": "openOnSessionStart",

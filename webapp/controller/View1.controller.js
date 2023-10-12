@@ -10,7 +10,7 @@ sap.ui.define([
     function (Controller, JSONModel, Component, ComponentContainer) {
         "use strict";
 
-        return Controller.extend("taskuinavigationroot.controller.View1", {
+        return Controller.extend("taskuiwrapper.controller.View1", {
             onInit: function () {
 
             },

@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "taskuinavigationroot.view.",
+		viewNamespace: "taskuiwrapper.view.",
 		autoWait: true
 	});
 });

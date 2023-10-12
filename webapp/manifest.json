@@ -1,7 +1,7 @@
 {
   "_version": "1.49.0",
   "sap.app": {
-    "id": "taskuinavigationroot",
+    "id": "taskuiwrapper",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -66,7 +66,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "taskuinavigationroot.i18n.i18n"
+          "bundleName": "taskuiwrapper.i18n.i18n"
         }
       }
     },
@@ -82,7 +82,7 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "taskuinavigationroot.view",
+        "viewPath": "taskuiwrapper.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false
@@ -107,7 +107,7 @@
       }
     },
     "rootView": {
-      "viewName": "taskuinavigationroot.view.App",
+      "viewName": "taskuiwrapper.view.App",
       "type": "XML",
       "async": true,
       "id": "App"

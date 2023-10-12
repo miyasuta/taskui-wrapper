@@ -5,12 +5,12 @@
 sap.ui.define([
         "sap/ui/core/UIComponent",
         "sap/ui/Device",
-        "taskuinavigationroot/model/models"
+        "taskuiwrapper/model/models"
     ],
     function (UIComponent, Device, models) {
         "use strict";
 
-        return UIComponent.extend("taskuinavigationroot.Component", {
+        return UIComponent.extend("taskuiwrapper.Component", {
             metadata: {
                 manifest: "json"
             },

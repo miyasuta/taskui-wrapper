@@ -1,4 +1,4 @@
-<mvc:View controllerName="taskuinavigationroot.controller.View1"
+<mvc:View controllerName="taskuiwrapper.controller.View1"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m"
     xmlns:core="sap.ui.core">
