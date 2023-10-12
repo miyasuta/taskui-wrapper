@@ -40,7 +40,7 @@ sap.ui.define([
 								"tileType": "sap.ushell.ui.tile.StaticTile",
 								"properties": {
 									"title": "Task UI navigation root",
-									"targetURL": "#taskuinavigationroot-display"
+									"targetURL": "#taskuiwrapper-display"
 								}
 							}]
 						}]
@@ -51,8 +51,8 @@ sap.ui.define([
 				"adapter": {
 					"config": {
 						"inbounds": {
-							"taskuinavigationroot-display": {
-								"semanticObject": "taskuinavigationroot",
+							"taskuiwrapper-display": {
+								"semanticObject": "taskuiwrapper",
 								"action": "display",
 								"description": "A Fiori application.",
 								"title": "Task UI navigation root",
@@ -61,8 +61,8 @@ sap.ui.define([
 								},
 								"resolutionResult": {
 									"applicationType": "SAPUI5",
-									"additionalInformation": "SAPUI5.Component=taskuinavigationroot",
-									"url": sap.ui.require.toUrl("taskuinavigationroot")
+									"additionalInformation": "SAPUI5.Component=taskuiwrapper",
+									"url": sap.ui.require.toUrl("taskuiwrapper")
 								}
 							}
 						}

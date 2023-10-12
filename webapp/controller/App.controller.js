@@ -5,7 +5,7 @@ sap.ui.define(
     function(BaseController) {
       "use strict";
   
-      return BaseController.extend("taskuinavigationroot.controller.App", {
+      return BaseController.extend("taskuiwrapper.controller.App", {
         onInit() {
         }
       });
