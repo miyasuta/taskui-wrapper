@@ -1,6 +1,9 @@
 ## Purpose
 The purpose of this project is to test SAP Build Process Automation task UIs in Business Application Studio (BAS).
 
+![image](https://github.com/miyasuta/taskui-wrapper/assets/39408125/f9ae1991-31e8-4eb8-9679-e1652c7d16dc)
+
+
 ## How to use
 ### 1. Clone the repository
 
