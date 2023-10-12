@@ -29,11 +29,3 @@ server:
       configuration:
         component: taskuinavigationroot
         ui5Theme: sap_horizon
-    - name: fiori-tools-servestatic
-      afterMiddleware: compression
-      configuration:
-        paths:
-          - path: /resources/ordersmgtnsp/workflowuimodule
-            src: ../ordersmanagement/workflow-ui-module/webapp
-          - path: /appconfig
-            src: appconfig
