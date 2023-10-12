@@ -7,17 +7,17 @@ server:
     - name: fiori-tools-proxy
       afterMiddleware: compression
       configuration:
-        ignoreCertError: false       
+        ignoreCertError: false
         ui5:
           path:
             - /resources
             - /test-resources
           url: https://ui5.sap.com
-        backend:    
+        backend:
           - path: /resources/ordersmgtnsp/workflowuimodule/bpmworkflowruntime
             pathPrefix: /public/workflow/rest
             url: https://spa-api-gateway-bpi-us-prod.cfapps.us10.hana.ondemand.com
-            destination: workflowruntime                    
+            destination: workflowruntime
     - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:
@@ -29,3 +29,11 @@ server:
       configuration:
         component: taskuinavigationroot
         ui5Theme: sap_horizon
+    - name: fiori-tools-servestatic
+      afterMiddleware: compression
+      configuration:
+        paths:
+          - path: /resources/ordersmgtnsp/workflowuimodule
+            src: ../ordersmanagement/workflow-ui-module/webapp
+          - path: /appconfig
+            src: appconfig

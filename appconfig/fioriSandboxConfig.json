@@ -1,0 +1,9 @@
+{
+  "applications": {
+    "workflow-ui-module-display": {
+      "additionalInformation": "SAPUI5.Component=ordersmgtnsp.workflowuimodule",
+      "applicationType": "URL",
+      "url": "../resources/ordersmgtnsp.workflowuimodule"
+    }
+  }
+}
