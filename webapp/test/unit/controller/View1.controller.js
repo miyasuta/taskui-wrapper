@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"taskui-navigation-root/controller/View1.controller"
+	"taskui-wrapper/controller/View1.controller"
 ], function (Controller) {
 	"use strict";
 

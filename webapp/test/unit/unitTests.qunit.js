@@ -5,7 +5,7 @@ sap.ui.getCore().attachInit(function () {
 	"use strict";
 
 	sap.ui.require([
-		"taskui-navigation-root/test/unit/AllTests"
+		"taskui-wrapper/test/unit/AllTests"
 	], function () {
 		QUnit.start();
 	});

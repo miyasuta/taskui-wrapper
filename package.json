@@ -1,5 +1,5 @@
 {
-  "name": "taskui-navigation-root",
+  "name": "taskui-wrapper",
   "version": "0.0.1",
   "private": true,
   "description": "A Fiori application.",

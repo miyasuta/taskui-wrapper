@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Start taskui-navigation-root",
+            "name": "Start taskui-wrapper",
             "type": "node",
             "request": "launch",
             "runtimeExecutable": "npx",
@@ -25,11 +25,11 @@
             "env": {
                 "DEBUG": "--inspect",
                 "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
-                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/taskui-navigation-root\"}"
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/taskui-wrapper\"}"
             }
         },
         {
-            "name": "Start taskui-navigation-root Local",
+            "name": "Start taskui-wrapper Local",
             "type": "node",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -53,7 +53,7 @@
             "port": 9229,
             "env": {
                 "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
-                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/taskui-navigation-root\"}"
+                "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/taskui-wrapper\"}"
             }
         }
     ]
