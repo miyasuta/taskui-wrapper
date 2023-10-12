@@ -1,13 +1,11 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
-    "sap/ui/model/json/JSONModel",
-    "sap/ui/core/Component",
-    "sap/ui/core/ComponentContainer"
+    "sap/ui/model/json/JSONModel"
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller, JSONModel, Component, ComponentContainer) {
+    function (Controller, JSONModel) {
         "use strict";
 
         return Controller.extend("taskuiwrapper.controller.View1", {
