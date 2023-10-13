@@ -29,14 +29,14 @@ sap.ui.define([
                 const inboxAPI = {
                     updateTask: function () {                       
                     },
-                    addAction: function (params, callback, controller) {
+                    addAction: function (action, actionEventHandler, listener) {
                         // make the first letter of type uppercase
-                        const type = params.type.charAt(0).toUpperCase() + params.type.slice(1);
+                        const type = action.type.charAt(0).toUpperCase() + action.type.slice(1);
                         const button = new Button({
-                            text: params.label,
+                            text: action.label,
                             type: type,
                             press: function () {
-                                MessageToast.show(`Action ${params.label} triggered`)
+                                MessageToast.show(`Action ${action.label} triggered`)
                             }
                         })
                         that.byId("toolbar").addContent(button);
