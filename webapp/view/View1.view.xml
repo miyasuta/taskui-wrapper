@@ -3,10 +3,17 @@
     xmlns="sap.m"
     xmlns:core="sap.ui.core">
     <Page id="page" title="{i18n>title}">
-        <HBox id="hbox">
-            <Input id="taskInstanceId" width="300px" class="sapUiTinyMarginEnd" placeholder="Enter Task Instance ID..."/>
-            <Button id="approveButton" text="Open Task UI" press="onOpen" />
-        </HBox>
-        <core:ComponentContainer id="attachmentComponentContainer" />
+        <content>
+            <HBox id="hbox">
+                <Input id="taskInstanceId" width="300px" class="sapUiTinyMarginEnd" placeholder="Enter Task Instance ID..."/>
+                <Button id="approveButton" text="Open Task UI" press="onOpen" />
+            </HBox>
+            <core:ComponentContainer id="attachmentComponentContainer" />
+            </content>
+        <footer>
+            <OverflowToolbar id="toolbar">
+                <ToolbarSpacer id="spacer"/>
+            </OverflowToolbar>
+        </footer>
     </Page>
 </mvc:View>
