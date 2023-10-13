@@ -2,12 +2,13 @@ sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/ui/model/json/JSONModel",
     "sap/m/Button",
-    "sap/m/MessageToast"
+    "sap/m/MessageToast",
+    "sap/m/ToolbarSpacer"
 ],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller, JSONModel, Button, MessageToast) {
+    function (Controller, JSONModel, Button, MessageToast, ToolbarSpacer) {
         "use strict";
 
         return Controller.extend("taskuiwrapper.controller.View1", {
@@ -19,6 +20,10 @@ sap.ui.define([
                 const taskModel = new JSONModel({
                     InstanceID: this.byId("taskInstanceId").getValue()
                 })
+
+                //clear buttons
+                this.byId("toolbar").removeAllContent();
+                this.byId("toolbar").addContent(new ToolbarSpacer());
 
                 const that = this;
                 const inboxAPI = {
