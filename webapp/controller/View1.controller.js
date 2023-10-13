@@ -15,7 +15,7 @@ sap.ui.define([
 
             },
 
-            onOpen: function () {
+            onShowTaskUI: function () {
                 const taskModel = new JSONModel({
                     InstanceID: this.byId("taskInstanceId").getValue()
                 })

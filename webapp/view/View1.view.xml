@@ -6,7 +6,7 @@
         <content>
             <HBox id="hbox">
                 <Input id="taskInstanceId" width="300px" class="sapUiTinyMarginEnd" placeholder="Enter Task Instance ID..."/>
-                <Button id="approveButton" text="Open Task UI" press="onOpen" />
+                <Button id="approveButton" text="Show Task UI" press="onShowTaskUI" />
             </HBox>
             <core:ComponentContainer id="attachmentComponentContainer" />
             </content>
