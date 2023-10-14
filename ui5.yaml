@@ -12,12 +12,7 @@ server:
           path:
             - /resources
             - /test-resources
-          url: https://ui5.sap.com
-        backend:    
-          - path: /resources/ordersmgtnsp/workflowuimodule/bpmworkflowruntime
-            pathPrefix: /public/workflow/rest
-            url: https://spa-api-gateway-bpi-us-prod.cfapps.us10.hana.ondemand.com
-            destination: workflowruntime                    
+          url: https://ui5.sap.com                  
     - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:
