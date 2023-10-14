@@ -1,8 +1,7 @@
 ## Purpose
 The purpose of this project is to test SAP Build Process Automation task UIs in Business Application Studio (BAS).
 
-![image](https://github.com/miyasuta/taskui-wrapper/assets/39408125/f9ae1991-31e8-4eb8-9679-e1652c7d16dc)
-
+![image](https://github.com/miyasuta/taskui-wrapper/assets/39408125/517901ab-1c5d-48e0-88e8-4dd7d35e6ee4)
 
 ## How to use
 ### 1. Clone the repository
@@ -14,7 +13,7 @@ git clone https://github.com/miyasuta/taskui-wrapper.git
 
 ### 2. Enable App-to-App navigation
 
-- Enable App-to-App navigation with the follwoing command.
+- Enable App-to-App navigation with the following command.
 ![image](https://github.com/miyasuta/taskui-wrapper/assets/39408125/0bacd754-f07e-417b-9bcc-cd718fff679c)
 
 - Select taskui-wrapper as the source.  
@@ -64,13 +63,12 @@ git clone https://github.com/miyasuta/taskui-wrapper.git
 
 - Run `npm start` to run the wrapper app
 
-- Enter a task instance ID (UUID) into the input field and press the "**Open Task UI**" button.
-![image](https://github.com/miyasuta/taskui-wrapper/assets/39408125/a4d937de-014b-4fd9-8eaf-00eb11fc4fe3)
+- Enter a task instance ID (UUID) into the input field and press the "**SHow Task UI**" button.
+![image](https://github.com/miyasuta/taskui-wrapper/assets/39408125/a74c3848-416a-4b2d-8e01-e293d1cfefa7)
 
-- The task UI will be displayed with data.
-![image](https://github.com/miyasuta/taskui-wrapper/assets/39408125/9a606323-0e0b-434f-b824-5ea9356e7d40)
+- The task UI will be displayed with task data.
+![image](https://github.com/miyasuta/taskui-wrapper/assets/39408125/1ef846fb-23bb-4291-8447-7bdc4b45dea7)
 
 - You can also view the task UI without providing a task instance ID, just for checking the layout.
-![image](https://github.com/miyasuta/taskui-wrapper/assets/39408125/e49a71f2-0582-4cba-912a-f8ece5790915)
-
+![image](https://github.com/miyasuta/taskui-wrapper/assets/39408125/62d55299-4244-4fc4-83e5-9222423890e3)
 
